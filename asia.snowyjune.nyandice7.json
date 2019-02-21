@@ -41,10 +41,27 @@
     },
     {
       "name": "群聊",
-      "function": "GroupMsg_EX",
+      "function": "GroupMsg",
       "type": 2,
       "priority": 30000,
-      "id": 6
+      "id": 6,
+      "regex": "[\.!].*"
+    },
+    {
+      "name": "讨论组消息",
+      "function": "DiscussMsg",
+      "type": 4,
+      "priority": 30000,
+      "id": 7,
+      "regex": "[\.!].*"
+    },
+    {
+      "name": "私聊消息",
+      "function": "QQMsg",
+      "type": 21,
+      "priority": 30000,
+      "id": 8,
+      "regex": "[\.!].*"
     }
   ],
   "menu": [

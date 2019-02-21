@@ -1,5 +1,6 @@
 #pragma comment(lib,"CQ_SDK.lib")
-#include "CQSDK.h"
+#include <CQSDK.h>
+#include "stdafx.h"
 
 //----我为什么要修改这个ID----
 //这是您的插件名称,一个独一无二的名称
@@ -16,4 +17,9 @@
 #define CQAPPINFO CQAPIVERTEXT "," CQAPPID
 
 //最重要的一句话
-MUST_AppInfo_RETURN(CQAPPID)
+//MUST_AppInfo_RETURN(CQAPPID);
+static Logger logger;
+
+EVE_Startup_EX(Startup) {
+
+}

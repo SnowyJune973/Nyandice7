@@ -6,6 +6,16 @@
 #pragma once
 
 #include "targetver.h"
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <map>
+#include <set>
+#include <vector>
+#include <string>
+#include <regex>
+#include <thread>
+#include <ctime>
 
 #define WIN32_LEAN_AND_MEAN             // 从 Windows 头文件中排除极少使用的内容
 // Windows 头文件
